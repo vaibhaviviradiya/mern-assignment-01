@@ -1,0 +1,18 @@
+{
+  "name": "@vaibhavi123/fake-data",
+  "version": "1.0.0",
+  "description": "A simple fake data generator for names, emails, and more.",
+  "main": "index.js",
+  "keywords": [
+    "fake data",
+    "generator",
+    "testing",
+    "faker",
+    "random"
+  ],
+  "author": "Vaibhavi Viradiya",
+  "license": "MIT",
+  "dependencies": {
+    "@vaibhavi123/fake-data": "^1.0.0"
+  }
+}

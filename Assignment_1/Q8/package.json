@@ -1,0 +1,18 @@
+{
+  "name": "vaibhavi_node_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Running tests...\" && node test.js",
+    "start:dev": "nodemon server.js",
+    "clean": "rm -rf dist",
+    "greet": "node greet.js"
+  },
+  "author": "vaibhavi viradiya",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

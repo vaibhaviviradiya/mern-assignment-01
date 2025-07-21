@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello NodeJS</title>
+</head>
+<body>
+    <h1>Welcome to NodeJS AJAX </h1>
+    <button onclick="getHello()">Click to Get Hello</button>
+    <p id="response"></p>
+
+    <script>
+        function getHello() {
+            fetch('/gethello')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('response').innerText = data;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
